@@ -146,9 +146,9 @@
                     if (curr.r == values[next].r && curr.g == values[next].g && curr.b == values[next].b && curr.a == values[next].a) {
                         next++;
                         if (next == values.length) {
-                            var a = new Date().getTime();
-                            console.log(a - start);
-                            start = a;
+                            //var a = new Date().getTime();
+                            //console.log(a - start);
+                            //start = a;
                             values = values.reverse();
                             next = 1;
                         }
